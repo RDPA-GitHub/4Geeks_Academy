@@ -36,7 +36,7 @@ for (let i in par) {
     counts[par[i]] = 1;
 
   } else {
-    counts[par[i]] += 1;
+    counts[par[i]]++;
   }
 }
 
